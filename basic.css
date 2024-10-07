@@ -1,0 +1,67 @@
+/* CSS to style the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Styling paragraphs */
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+/* Styling links */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling a button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Simple class for centered text */
+.center {
+  text-align: center;
+}
+
+/* Responsive design: for screens smaller than 600px */
+@media (max-width: 600px) {
+  body {
+    background-color: #fff;
+  }
+
+  header {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
